@@ -153,23 +153,23 @@
       <form class="row g-3" action="https://formsubmit.co/ea785fa7d87271e2fe400d4bfa51c5fb" method="POST">
         <div class="col-md-6">
           <label for="voorletters" class="form-label">Voorletters*</label>
-          <input type="text" class="form-control" id="voorletters" required>
+          <input type="text" class="form-control" name="name" id="voorletters" required>
         </div>
         <div class="col-md-6">
           <label for="achternaam" class="form-label">Achternaam*</label>
-          <input type="text" class="form-control" id="achternaam" required>
+          <input type="text" class="form-control" name="Last Name" id="achternaam" required>
         </div>
         <div class="col-md-8">
           <label for="emailInfo" class="form-label">E-mail Addres*</label>
-          <input type="email" class="form-control" id="emailInfo" required>
+          <input type="email" class="form-control" name="email" id="emailInfo" required>
         </div>
         <div class="col-md-4">
           <label for="phoneNumber"class="form-label">Telefoon Nummer (optioneel)</label>
-          <input type="number" class="form-control" id="phoneNumber" placeholder="0612345678">
+          <input type="number" class="form-control" name="phone" id="phoneNumber" placeholder="0612345678">
         </div>
         <div class="col-md-4">
           <label for="probleem" class="form-label">Soort probleem</label>
-          <select id="probleem" class="form-select">
+          <select id="probleem" class="form-select" name="description" id="probleem" required>
             <option>Computer opschooning</option>
             <option>Upgrade advies</option>
             <option>Instalatie aparaten</option>
@@ -177,11 +177,11 @@
         </div>
         <div class="col-md-8">
           <label for="address" class="form-label">Address*</label>
-          <input type="text"class="form-control" id="address" placeholder="Straat/huisnummer/plaats" required>
+          <input type="text"class="form-control" id="address" name="address" placeholder="Straat/huisnummer/plaats" required>
         </div>
         <div class="col-md-12">
           <label for="comment" class="form-label">Beschrijf uw probleem.*</label>
-          <textarea class="form-control" id="comment" rows="3" required></textarea>
+          <textarea class="form-control" id="comment" rows="3" name="comments, questions" required></textarea>
         </div>
         <div class="col-md-12">
           <button type="submit"class="btn btn-primary">Verstuur</button>

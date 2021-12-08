@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Delius', cursive;
+}
+.menu-bar {
+    background-image: linear-gradient(-90drg, #d38312, #a83279);
+}
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: #ffffff!important;
+    font-weight: 500;
+}
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    background-image: url("../img/jumbotron.png");
+    background-size: cover;
+  }
+
+.bg-dark{
+    background: rgb(217,217,217);
+    background: linear-gradient(90deg, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 100%, rgba(138,138,138,1) 100%);
+}
